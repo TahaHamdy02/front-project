@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrestaurant=self.webpackChunkrestaurant||[]).push([[435],{435:function(e,a,t){t.r(a);t(2791);var s=t(879),n=t(184);a.default=function(){return(0,n.jsxs)("div",{className:"app__faqpage",children:[(0,n.jsx)(s.cy,{pageTiltle:"Frequently Asked Question",path1:"Home",to1:"/home",path2:"FAQ",to2:"/faq"}),(0,n.jsx)(s.By,{}),(0,n.jsx)(s.$_,{})]})}}}]);
+//# sourceMappingURL=435.b40d40ca.chunk.js.map

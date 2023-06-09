@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrestaurant=self.webpackChunkrestaurant||[]).push([[564],{4564:function(e,a,t){t.r(a);t(2791);var s=t(879),r=t(7689),u=t(8903),n=t(184);a.default=function(){var e=Number((0,r.UO)().id),a=u.aT.OurChefs.find((function(a){return a.id===e}));return(0,n.jsxs)("div",{className:"app__chefdetails",children:[(0,n.jsx)(s.cy,{pageTiltle:"Chef",path1:"Home",to1:"/home",path2:"Our Chefs",to2:"/ourchefs",path3:a.name,to3:""}),(0,n.jsx)(s.aM,{}),(0,n.jsx)(s.I2,{}),(0,n.jsx)(s.$_,{})]})}}}]);
+//# sourceMappingURL=564.aeb4ebc1.chunk.js.map
