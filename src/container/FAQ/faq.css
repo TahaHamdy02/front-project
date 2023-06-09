@@ -1,0 +1,84 @@
+.app__faq .app__wrapper {
+  min-height: auto;
+}
+
+.app__faq .app__wrapper_info {
+  width: 80%;
+}
+
+.app__faq .app__wrapper_info .accordion-item {
+  width: 100%;
+  background-color: var(--color-gray);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.accordion-item .accordion-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  line-height: 28.2px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.accordion-content {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.5s;
+}
+
+.accordion-content.open__accordion {
+  height: 100px;
+}
+
+.accordion-content p.p__opensans {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .accordion-item .accordion-title {
+    font-size: 150px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .app__faq .app__wrapper .app__wrapper_img {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  .app__faq .app__wrapper_info {
+    width: 100%;
+  }
+
+  .accordion-item .accordion-title {
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .accordion-content.open__accordion {
+    height: 140px;
+  }
+  .accordion-content p.p__opensans {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .accordion-item .accordion-title {
+    font-size: 1.1rem;
+    line-height: 20px;
+  }
+  .accordion-content p.p__opensans {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,28 @@
+/* .app__mainbg-heading{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+} */
+.app__mainbg{
+    text-align: center;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.app__mainbg-path{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-size: 22px;
+
+}
+.app__mainbg-path svg{
+  
+    color: var(--color-golden);
+    font-size: 22px;
+}

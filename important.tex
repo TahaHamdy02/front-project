@@ -1,0 +1,49 @@
+% disable auto fill background
+
+% input:-webkit-autofill,
+% input:-webkit-autofill:hover, 
+% input:-webkit-autofill:focus, 
+% input:-webkit-autofill:active {
+%   font-size: 18px;
+%   -webkit-text-fill-color: var(--color-white) !important;
+%   -webkit-box-shadow: 0 0 0px 1000px var(--color-Dark-Jungle-Green) inset;
+% }
+
+
+% scroll to section in anoter page
+
+% useEffect(() => {
+%   const hash = window.location.hash;
+%   if (hash) {
+%     const element = document.querySelector(hash);
+%     if (element) {
+%       element.scrollIntoView({ behavior: 'smooth' });
+%     }
+%   }
+% }, []);
+
+const NavMenu = () => {
+  const links = [
+    { path: "/home", label: "Home" },
+    { path: "/aboutus", label: "About Us" },
+    { path: "/menu", label: "Menu" },
+    { path: "/awards", label: "Awards" },
+    { path: "/contact", label: "Contact" },
+  ];
+
+  const handleLinkClick = () => {
+    setToggleMenu(false);
+  };
+
+  return (
+    <>
+      {links.map((link) => (
+        <li key={link.path} className="p__opensans">
+          <Link to={link.path} onClick={handleLinkClick}>
+            {link.label}
+          </Link>
+        </li>
+      ))}
+    </>
+  );
+};

@@ -1,0 +1,11 @@
+.app__subheading {
+    margin-bottom: 1rem;
+}
+
+.app__subheading p.p__cormorant {
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-white);
+}

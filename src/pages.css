@@ -1,0 +1,111 @@
+.app__notfound,
+.app__commingsoon {
+  min-height: 100vh;
+}
+
+/* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+} */
+.app__commingsoon-info,
+.app__notfound-info {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app__notfound-info_heading h1 {
+  font-family: var(--font-base);
+  font-size: 22rem;
+  color: var(--color-golden);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 29.9px;
+  height: 140px;
+}
+
+.app__commingsoon-info-countdown {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 2rem;
+  column-gap: 4rem;
+}
+
+.app__commingsoon .countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.app__commingsoon-info-countdown h3 {
+  font-size: 80px;
+  font-weight: 600;
+  color: var(--color-white);
+  letter-spacing: 0.04em;
+}
+
+.app__commingsoon-info-countdown p {
+  color: var(--color-golden);
+}
+.app__app__ourservicespage-happyhours {
+  height: 70vh;
+  flex-direction: column;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7595413165266106) 0%,
+      rgba(0, 0, 0, 0.76234243697479) 100%
+    ),
+    url(./assets/MenuBar/menubar03.png);
+  background-position: center;
+  background-size: cover;
+  gap: 40px;
+}
+.app__faqpage .app__mainbg h1.headtext__cormorant {
+  text-align: center;
+}
+.app__blogdetails-container,
+.app__blogpage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+/* @media screen and (max-width: 1150px) {
+  .app__blogsidebar,
+  .app__allblogs {
+    width: 100%;
+  }
+} */
+@media screen and (max-width: 780px) {
+  .app__notfound-info_heading h1 {
+    font-size: 272px;
+  }
+
+  .app__commingsoon-info-countdown h3 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .app__notfound-info_heading h1 {
+    font-size: 172px;
+    height: 50px;
+  }
+
+  .app__commingsoon-info-countdown h3 {
+    font-size: 44px;
+  }
+}
